@@ -1,0 +1,8 @@
+POST http://localhost:3500/crear-usuario
+Content-Type: application/json
+
+{
+    "correo": "jaime@correo.de",
+    "clave": "hola123",
+    "confirmaClave": "hola123",
+}
